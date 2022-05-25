@@ -19,6 +19,7 @@ The scripts launch pssh to install the client on the VMs. The list of VMs curren
 To check if the installation was successful, run
 
 ```
-amlfs_pssh_check.sh
+./amlfs_pssh_check.sh
 ```
 
+The resulting log file lists the VMs on which the client is installed, or the installation failed.
