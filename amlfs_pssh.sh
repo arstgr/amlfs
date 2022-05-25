@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MGS_IP=$1
-
+CDIR=$(pwd)
 
 sudo yum install pssh -y
 
