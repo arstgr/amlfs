@@ -19,4 +19,4 @@ sudo rpm -ivh /root/rpmbuild/RPMS/x86_64/lustre-client-devel-2.14.0-1.el8.x86_64
 
 
 sudo mkdir /amlfs
-#sudo mount -t lustre -o noatime.flock ${MGS_IP}@tcp:/lustrefs /amlfs
+sudo mount -t lustre -o noatime.flock ${MGS_IP}@tcp:/lustrefs /amlfs
